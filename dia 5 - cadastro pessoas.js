@@ -30,9 +30,9 @@ function removerUsuario() {
 
 function listarUsuarios() {
     if (cadastros.length === 0) {
-        console.log("📭 Nenhum usuário cadastrado.")
+        console.log("Nenhum usuário cadastrado.")
     } else {
-        console.log("📋 Lista de usuários cadastrados:")
+        console.log("Lista de usuários cadastrados:")
         cadastros.forEach((usuario, index) => {
             console.log(`${index + 1}. Nome: ${usuario.nome}, Idade: ${usuario.idade}, Email: ${usuario.email}`)
         })
